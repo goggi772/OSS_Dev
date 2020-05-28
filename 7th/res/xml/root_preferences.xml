@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ListPreference
+        android:defaultValue="Seoul"
+        android:entries="@array/pref_city_list_titles"
+        android:entryValues="@array/pref_city_list_titles"
+        android:key="@string/pref_title_city"
+        android:summary="%s"
+        android:title="@string/pref_title_city" />
+
+
+</PreferenceScreen>
